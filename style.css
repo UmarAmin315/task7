@@ -1,0 +1,259 @@
+/* section4  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 1140px;
+  margin: auto;
+  padding: 0 30px;
+}
+.maindiv {
+  background-color: #fdc800;
+}
+.header {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftsec {
+  display: flex;
+}
+.address {
+  display: flex;
+  align-items: center;
+}
+.email {
+  display: flex;
+  margin-left: 40px;
+  align-items: center;
+}
+.email > img {
+  height: 15px;
+}
+.email > p {
+  margin-left: 8px;
+}
+.address > p {
+  margin-left: 8px;
+}
+.address > img {
+  height: 15px;
+}
+.maindiv1 {
+  background-color: #f0f4f9;
+  border-bottom: 1px solid white;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menuitems {
+  margin: 0 50px 0 0;
+  cursor: pointer;
+}
+.menuitems:hover {
+  color: #0053a7;
+}
+.signupbtn {
+  padding: 12px;
+  border: none;
+  background-color: #fdc800;
+  margin-right: 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.searchbtn {
+  padding: 9px;
+  background-color: white;
+  border: 1px solid grey;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.smallicon {
+  font-size: 50px;
+  display: none;
+}
+/* section1  */
+.section1 {
+  padding: 50px 0;
+  height: 400px;
+  position: relative;
+}
+.section1 > p {
+  color: #fdc800;
+  font-size: 20px;
+}
+.section1 > h1 {
+  font-size: 55px;
+  color: #002147;
+}
+.collectdata {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 40px 0 0 0;
+}
+.common {
+  display: flex;
+  flex-direction: column;
+}
+.common > label {
+  color: #002147;
+  font-size: 20px;
+}
+.selector {
+  padding: 8px;
+  outline: none;
+  border-radius: 3px;
+  margin-top: 10px;
+  border: 1px solid #bdbdbd;
+}
+/* section2 */
+.section2 {
+}
+.contents-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  position: relative;
+  bottom: 200px;
+}
+.commonclass {
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+.imagesection {
+  position: relative;
+}
+.image1 {
+  width: 100%;
+}
+.imagesection > .image2 {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  top: 140px;
+  border: 5px solid white;
+}
+.infosection {
+  padding: 50px;
+}
+/* section3  */
+.section3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 30px 30px 30px;
+}
+.logosection {
+  display: flex;
+  justify-content: center;
+}
+.logosection > img {
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.information > p {
+  color: #fdc800;
+  font-size: 20px;
+}
+.informatin > h1 {
+  color: #002147;
+}
+.subscribe {
+  display: flex;
+  align-items: center;
+  padding: 4px 4px 4px 10px;
+  justify-content: space-between;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+}
+.leftpart {
+  display: flex;
+  align-items: center;
+}
+.leftpart > p {
+  margin-left: 10px;
+}
+.subscribe > button {
+  padding: 8px;
+  outline: none;
+  cursor: pointer;
+  background-color: #fdc800;
+  border-radius: 3px;
+  border: 1px solid #bdbdbd;
+}
+/* section4  */
+.section4 {
+  padding: 50px 0 0 0;
+}
+.section4inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.left {
+  padding: 20px 0 0 0;
+}
+.maindiv2 {
+  background-color: #002147;
+  color: white;
+}
+.address2,
+.phone2,
+.email2 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.address2 > p {
+  margin-left: 10px;
+}
+.phone2 > p {
+  margin-left: 10px;
+}
+.email2 > p {
+  margin-left: 10px;
+}
+.rightheader {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.first ul > li {
+  list-style: none;
+  margin-top: 7px;
+}
+.middle ul > li {
+  list-style: none;
+  margin-top: 7px;
+}
+.last > ul > li {
+  list-style: none;
+  margin-top: 7px;
+}
+.lastsection {
+  background-color: #fdc800;
+  border: none;
+  border-radius: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px 15px 40px;
+  color: black;
+  margin-top: 20px;
+}
